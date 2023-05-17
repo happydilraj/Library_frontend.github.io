@@ -1,0 +1,175 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* navbar */
+#navbar{
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    position: relative;
+    position: sticky;
+}
+#navbar img{  
+    margin: 16px 16px;
+    height: 57px;
+    width: 59px;
+}
+#navbar ul {
+    display: flex;
+}
+#navbar ul li{
+    
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    margin: 2px 14px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding: 6px 11px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#navbar ::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top: 0; left: 0;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+/* home */
+#home{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    align-items: center;
+    height: 630px;
+    justify-content: center;
+    color: white;
+    /* margin: 50px; */
+    
+}
+#home ::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(/images/library5.jpg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.9;
+
+    
+}
+#home h3{
+    margin-top: -31px;
+}
+#home p{
+    margin-top: 320px;
+}
+
+/* services */
+
+#services{
+    display: flex;
+    position: relative;
+    top: 1px;
+    left: 1px;
+}
+#services img{
+    height: 160px;
+    display: block;
+    margin: auto;
+   
+}
+#services .box{
+    text-align: center;
+    border-radius: 30px;
+    height: 350px;
+    color: white;
+    border: 2px solid black;
+    margin: 23px;
+    background-color: black;
+    padding-top: 20px;
+}
+#service-id{
+    padding-top: 26px;
+}
+
+.service-container{
+    position: relative;
+    top: 20px;
+    
+}
+
+
+/* About us  */
+.Aboutuscontainer{
+    border-radius: 50px;
+    display: flex;
+    border: 2px solid black;
+    margin: 14px 195px;
+    background-color: black;
+    color: white;
+    
+}
+.Aboutuscontainer img{
+    margin-top: 39px;
+    height: 257px;
+    /* margin: 8px 18px; */
+    margin-left: 114px;
+}
+.Aboutuscontainer .aboutus{
+    margin: 5px 2px;
+}
+.aboutus p{
+    margin: 2px 2px;
+    margin-left: 113px;
+    margin-top: 50px;
+    margin-right: 159px;
+}
+.aboutus h1{
+    font-size: 3rem;
+    margin-top: 18px;
+    margin: left 2px;
+    margin-bottom: -25px;
+    /* margin: 21px 2px; */
+    margin-left: -76px;
+}
+
+/* contact us  */
+
+#contact{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#contact p{
+    margin-left: 118px;
+}
+
+
+/* utility classes */
+.h-primary{
+    font-size: 3rem;
+    font-family: 'Sarala', sans-serif;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    font-family: 'Sarala', sans-serif;
+}
+.center{
+    text-align: center;
+}
+
